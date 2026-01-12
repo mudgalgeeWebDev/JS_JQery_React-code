@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JsQ Mouose Enter Alert Event</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+<body>
+    
+    <p id="p1">Enter this paragaraph. </p>   
+
+    <script>     //  Find out, what is difference between .mouseenter and .mouselevel
+
+        $(document).ready(function(){
+            $("#p1").mouseenter(function(){
+                alert("you entered p1 !");
+            });
+        });
+    </script>
+
+
+</body>
+</html>

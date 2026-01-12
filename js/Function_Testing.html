@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<script>
+
+// document.write("Hiii..."+"<br>")
+// document.write("Hellow World"+"<br>")
+// document.write("Hellow  My Sanjay Mudgal")
+
+// Alert msg print
+
+// alert("Hellow World..Enter the my Virtual Virtual World.... ")
+// alert("This is showing alert pop up msg")
+//
+
+// 'for'  loop
+
+// let x = 10;
+// for(let i=1; i<=50; i++){
+//     document.write(x+"<br>");
+// }
+//  
+//  function acct_branch(name,basic_Salary,EPF,ESI,total_Salary,post,DOJ){
+//      document.write("Name: "+name+"<br>");
+//      document.write("Basic Salary: "+basic_Salary+"<br>");
+//      document.write("EPF : "+EPF+"<br>");
+//      document.write("ESI: "+ESI+"<br>");
+//      document.write("Total Salary: "+total_Salary+"<br>");
+//      document.write("Post : "+post+"<br>");
+//      document.write("Date  of Joining: "+DOJ+"<br><br>");
+//      
+//  
+//  }
+//  
+//  for(let i = 1; i<=2; i++){
+//      let name = prompt("Enter your name");
+//      let basic_Salary = parseInt(prompt("Enter your Salary"));
+//      let EPF = parseInt(prompt("Enter EPF Amount"));
+//      let ESI = parseInt(prompt("Enter your ESI AMOUNT "));
+//      let total_Salary = prompt("Enter your Total salary");
+//      let post = prompt("Entr your Post Name: ")
+//      let DOJ = parseInt(prompt("Enter your Date of Joinning"));
+//  
+//  acct_branch(name,basic_Salary,EPF,ESI,total_Salary,post,DOJ);
+//  }
+
+
+// .......   function with for loop , how to use  ....
+
+//  function deo_Data(name,age,salary,branch){
+//      document.write("Name : "+name+"<br>");
+//      document.write("Age : "+age+"<br>");
+//      document.write("Salary : "+salary+"<br>");
+//      document.write("Branch : "+branch+"<br><BR>");
+//      }
+//  
+//  for(let i = 1; i<=3; i++){
+//      let name = prompt("Enter your name");
+//      let age = parseInt(prompt("enter your Age"));
+//      let salary = parseInt(prompt("Enter Salary"));
+//      let branch = prompt("Enter your branch");
+//  deo_Data(name,age,salary,branch);
+//   }
+ 
+
+ function details_DEO(name,age,post,branch,joining,city){
+    document.write("Name :- " + name + "<br>");
+    document.write("Age :- " + age + "<br>");
+    document.write("Post :- " + post + "<br>");
+    document.write("Branch :- " + branch + "<br>");
+    document.write("Joining :- " + joining + "<br>");
+    document.write("City :- " + city + "<br><br>");
+}
+
+for(let i = 1; i<=3; i++){
+    let name = prompt("Enter Your Full Name ");
+    let age = parseInt(prompt("Enter your age."));
+    let post = prompt("Enter your Post");
+    let branch = prompt("Enter your Branch Name ")
+    let joining = parseInt(prompt("Enter Your joining Year... YYYY"));
+    let city = prompt("Enter your City..");
+
+details_DEO(name,age,post,branch,joining,city);
+}
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>

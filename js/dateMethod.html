@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Method</title>
+
+</head>
+<body>
+    <h1 style="color:red">Date Method in JavaScript</h1>
+
+    <p id="demo" style="color: blue;"></p>
+    
+    <script>
+        // let d = new Date();
+        // document.getElementById("demo").innerHTML = d;
+
+
+//************************************
+
+    // let newDate = new Date("1990-03-25");
+    // document.getElementById("demo").innerHTML = newDate;
+    
+
+//***************************************
+
+        const months = ["January","Feb", "March","April","May",
+                         "June","July","Aug","Sept","Oct","Nov","Dec"];
+        const d = new Date("2021-04-20");
+        let month = months[d.getMonth()];     
+        document.getElementById("demo").innerHTML = month+"  This is the months";
+
+
+
+
+    </script>
+
+
+
+</body>
+</html>

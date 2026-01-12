@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.Hide & .Show function</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" ></script>
+
+</head>
+<body>
+    
+    <p> If you click on Hide button , It will be disappear</p>
+
+    <button id="hide", style="background-color: rgb(68, 196, 126);" >Hide</button>
+    <button id="show", style="background-color: chartreuse;">Show</button>
+    
+
+
+    <script>
+
+        $(document).ready(function(){
+            $("#hide").click(function(){
+                $("p").hide(2500);
+            });
+        });
+
+        $(document).ready(function(){
+            $("#show").click(function(){
+                $("p").show(2000);
+            });
+        });
+    </script>
+
+
+
+</body>
+</html>

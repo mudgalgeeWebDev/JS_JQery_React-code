@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>How to Work tag name.</p>
+    <p>use document.getElementByIdl</p>
+    <p>use onclick button & change the color</p>
+    <p> Hellow World..</p>
+    <p> use function and then call it. </p>
+
+  <button onclick="myFunction()">Click</button>
+</body>
+
+
+<script>
+    function myFunction(){
+        // let myCollection = document.querySelector("p");
+        // myCollection.style.color="red";
+
+        let myCollection = document.getElementsByTagName("p");
+
+        for (let i= 0; i<myCollection.length; i++){
+          myCollection[i].style.color = "red";
+          //myCollection[i].innerHTML = i;
+        }
+    }
+</script>
+</html>

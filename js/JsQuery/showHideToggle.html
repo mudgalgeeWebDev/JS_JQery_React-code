@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Querry</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+    <p>This is a heading</p>
+    <p>This is paragraph</p>
+    <p> This is a Another paragraph</p>
+
+
+    <button id="one">Click 4 hide </button>
+    <button id="two">Click 4 Show</button>
+    <button id="three">click 4 Toggle</button>
+33
+    <script>
+
+        $(document).ready(function(){
+        
+            $("#one").click(function(){
+                $("p").hide();
+            })
+
+
+            $("#two").click(function(){
+                $("p").show();
+            })
+
+
+            $("#three").click(function(){
+                $("p").toggle();
+            })
+
+
+        });
+
+
+
+
+
+    </script>
+
+
+</body>
+</html>
